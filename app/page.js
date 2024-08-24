@@ -7,7 +7,7 @@ export default function Home() {
   const [messages, setMessages] = useState([
     {
       role: "assistant",
-      content: `Hi I'm Lingo, the language learning chatbot, how can I assist you today?`,
+      content: `Hi I'm Lingo, a chatbot for language learners, how can I assist you today?`,
     },
   ]);
 
@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <Box
       width="100vw"
-      height="100vh"
+      height= "100vh"
       display="flex"
       flexDirection="column"
       justifyContent="center"
